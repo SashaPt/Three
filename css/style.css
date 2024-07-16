@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 100vw;
+  height: calc(100vh - 20px);
+  margin: 10px auto;
+}
+#container canvas {
+  cursor: grab;
+}
