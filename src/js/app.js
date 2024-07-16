@@ -19,7 +19,7 @@ let controls;
 const loader = new GLTFLoader();
 
 loader.load(
-  "../files/model.glb",
+  "./files/model.glb",
   function (gltf) {
     scene.add(gltf.scene);
   },
